@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Augusto Bosa - Mini Portfólio</title>
+
+    <!-- Fontes -->
+
+    <!-- VT323 -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet"> -->
+
+    <!-- Special Elite -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+
+    <!-- CSS styles -->
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/styles.css">
+</head>
+
+
+
+<body>
+    <!-- Cartão principal -->
+    <main class="cartao">
+        <!-- Informações basicas / cabeçalho (Foto, nome) -->
+        <div class="cabecalho">
+            <img src="./src/images/profilePic.jpg" alt="Foto de perfil">
+            <h1 class="nome">Augusto Bosa</h1>
+            <h2 class="trabalho">Desenvolvedor Web Júnior</h2>
+            <h3 class="linguagens">Frontend | Backend</h3>
+        </div>
+
+        <!-- Informações (parte de baixo) -->
+        <div class="conteudo">
+            <!-- Abas /botões-->
+            <ul class="abas">
+                <!-- Sobre mim -->
+                <li class="aba selected" id="about">
+                    <img src="./src/images/sobre.gif" alt="Ícone de sobre mim">
+                </li>
+                <!-- Redes sociais-->
+                <li class="aba" id="social">
+                    <img src="./src/images/coracao.gif" alt="Ícone de redes sociais">
+                </li>
+            </ul>
+
+            <!-- Conteúdo da aba selecionada -->
+            <div class="conteudo">
+                <!-- Tab Sobre -->
+                <div class="conteudoAba selected" id="content-about">
+                    <h3 class="subtitulo">Sobre mim</h3>
+                    <div class="descricao">
+                        <p>Olá! meu nome é <span class = "myName">Augusto Bosa</span></p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt et veniam cupiditate. Veritatis inventore non cupiditate, voluptatum quia totam? Alias itaque ducimus dolorum perspiciatis. Dolorem quidem perferendis error. Ad, distinctio.</p>
+
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis assumenda alias maxime amet dolorum delectus, dolores deserunt impedit ratione adipisci, totam quidem dolorem rem. Omnis libero nisi nemo repellendus ea.  
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis assumenda alias maxime amet dolorum delectus, dolores deserunt impedit ratione adipisci, totam quidem dolorem rem. Omnis libero nisi nemo repellendus ea.          
+                                 
+                        </p>
+                    </div>                 
+                </div>
+
+               <!-- Tab redes -->
+                <div class="conteudoAba socialMedia" id="content-social">
+                    <h3 class="subtitulo"  >Minhas redes</h3>
+                    <ul>
+                        <li class="cv"><a href="">Currículo</a></li>
+                        <li class="lkdn"><a href="https://www.linkedin.com/in/augusto-macarini-bosa-63410b149/" target="_blank">LinkedIn</a></li>   
+                        <li class="gh"><a href="">GitHub</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
